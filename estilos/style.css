@@ -5,49 +5,82 @@
     padding: 0px;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
 main {
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-image: url('../imagens/fundo-madeira.jpg');
+    background-image: url('../imagens/sistema-html-para-o-conceito-de-site.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center ;
+    background-position: center bottom;
 }
+
 section#phone {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 627px;
-    width: 311px;
-    background-image: url('../imagens/frame-iphone.png');
+    height: 654px;
+    width: 305px;
+    background-image: url('../imagens/frame-samsung.png');
+}
+
+section#tela {
+
+}
+
+script {
+    text-align: center;
 }
 
 iframe#tela {
-    position: relative;
-    top: 80px;
-    left: 22px;
-    height: 471px;
-    width: 267px;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 546px;
+    width: 292px;
+    border-radius:30px 30px 0px 0px;
 }
 
-section#redes {
-    text-align: right;
-    padding-top: 10vh;
-}
 
-section#redes img {
-    margin: 20px;
-    width: 50px;
-    height: 50px;
+img {
+    margin: 5px 5px 0px 5px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
 }
 
-section#redes img:hover {
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
-    transition: transform 0.3s, border 0.3s;
+
+div#icones {
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: #a9a9a980;
+    width: 292px;
+    height: 50px;
+    text-align: center;
+    border-radius: 0px 0px 30px 30px;
+    
 }
+
+footer {
+    text-align: center;
+    background-color: rgb(17, 41, 79);
+    color: lightgrey;
+}
+
+footer a {
+    font-style: italic;
+    color: lightgrey;
+}
+
+
